@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio If Else</title>
+</head>
+
+<body>
+    <script>
+
+        numero1Texto = prompt("Escribe un numero:");
+        let numero1;
+        numero1 = parseInt(numero1Texto);
+
+        numero2Texto = prompt("Escribe otro numero:");
+        let numero2;
+        numero2 = parseInt(numero2Texto);
+
+        numero3Texto = prompt("Escribe otro numero mas:");
+        let numero3;
+        numero3 = parseInt(numero3Texto);
+
+        let summa = parseInt(numero1) + parseInt(numero2);
+
+        if (summa == parseInt(numero3)) {
+            console.log(parseInt(summa));
+        }
+        else {
+            console.log(parseInt(summa) >= parseInt(numero3));
+            console.log(parseInt(summa) <= parseInt(numero3));
+        }
+    </script>
+</body>
+
+</html>
